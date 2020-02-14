@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Email Headers</title>
+    <link href="/css/mailheaders.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  </head>
+  <body>
+
+    <div class="container">      
+      <form method="POST" action="/headers">
+	<h1 class="title">Inspect mail headers</h1>
+
+	<div class="field">
+	  <label class="label">Headers</label>
+	  <div class="control">
+	    <textarea name="headers" class="textarea" placeholder="Paste mail headers here"></textarea>
+	  </div>
+	</div>
+
+	<div class="field is-grouped">
+	  <div class="control">
+	    <button class="button is-link">Inspect headers</button>
+	  </div>
+	</div>
+      </form>
+    </div>
+  </body>
+</html>

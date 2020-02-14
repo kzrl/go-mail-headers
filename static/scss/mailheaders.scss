@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+
+$orange: #B97527;
+
+$primary: $orange;
+
+$fa-font-path: "../webfonts";
+
+@import "fontawesome-5.11.2/fontawesome.scss";
+@import "fontawesome-5.11.2/solid.scss";
+@import "bulma-0.8.0/bulma.sass";
+
+
+.g {
+  color: $orange;
+}
+
+
+a {
+  color: $orange;
+}
+
+
+nav.top {
+  ul {
+    li {
+      display: inline;
+    }  
+  }
+}
+
+
+article.document.invoice {
+  table.items {
+    font-size: 1em;
+  }
+}
+
+.document-body {
+    height: 10em;
+}
+
+table {
+    .is-actions {
+	width: 5%;
+    }
+}
+
+.lineitem-pos {
+    display: block;
+}
+
+.reorder-arrows {
+    
+}
